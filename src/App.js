@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Button from '@mui/material/Button'
+import Typography from '@mui/material/Typography'
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Typography variant="h4">Mouse Events Testing UI</Typography>
         <Button
           id="double_click"
           variant="contained"
